@@ -1,0 +1,70 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #9f3a3a; 
+}
+
+.container {
+  max-width: 800px;
+  margin-left: 300px;
+}
+
+.player {
+  width: 800px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+
+.player-name {
+  flex-grow: 1;
+}
+
+.player-form{
+  width: 822px;
+  background-color: #45a049;
+ 
+}
+
+
+.trophy-icon {
+  color: #666;
+}
+
+.highlight .trophy-icon {
+  color: #ffd700; 
+}
+
+.player-buttons button:hover {
+  background-color: #45a049;
+}
+.list-info{
+  display: flex;
+  background-color: #45a049;
+  width: 822px;
+}
+.point{
+  margin-left: 200px;
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,19 @@
+
+  .small {
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #3498db;
+  }
+  
+  .medium {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #2ecc71;
+  }
+  
+  .large {
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: #e74c3c;
+  }
+  

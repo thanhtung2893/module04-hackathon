@@ -1,0 +1,112 @@
+h1 {
+  background-color: yellowgreen;
+  padding: 15px;
+  color: gray;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+ height: 500px;
+ width: 100%;
+ background-color: rgb(226, 235, 220);
+}
+
+.note-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.note-item {
+
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 200px; /* chiều dài cứng cho mỗi note */
+  width: 200px; /* chiều dài cứng cho mỗi note */
+  box-sizing: border-box;
+  animation: fadeIn 0.5s ease-in-out;
+  margin-left: 43px;
+  }
+
+
+.note-item p {
+  margin: 0;
+  flex-grow: 1;
+  
+}
+
+.note-item button {
+  cursor: pointer;
+  background-color:yellowgreen;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+}
+
+.note-item button:hover {
+  background-color:yellowgreen;
+}
+
+.note-form{
+  margin-left: 270px;
+  background-color:white;
+  padding: 10px;
+}
+
+
+.note-form-container {
+  
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.note-form textarea {
+  width: 100%;
+  height: 60px;
+ margin-right: 10px;
+ border: none;
+}
+
+.note-form button {
+  background-color: yellowgreen;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+}
+
+.note-form button svg {
+  margin-right: 5px;
+}
+
+.error {
+  color: #ff6347;
+  margin: 0;
+  font-size: 12px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
